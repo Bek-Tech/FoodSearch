@@ -23,7 +23,7 @@ export default () => {
 
   // searchApi("sushi")             //   do not use this , it causes infinite rendering
   useEffect (() => {
-    searchApi ('sushi');
+    searchApi ('restaurant');
   }, []);
   return [searchApi, Result, ErrorMessage];
 };
